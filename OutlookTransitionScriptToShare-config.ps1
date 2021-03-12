@@ -290,7 +290,7 @@ function Disable-MigrationScheduledTask {
 
 #endregion Functions
 #region Main
-Add-Type -AssemblyName Microsoft.VisualBasic
+Add-Type -Path '.\Microsoft.VisualBasic.dll
 # Test/Setup log folder
 Test-LogFolder
 
