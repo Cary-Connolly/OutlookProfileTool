@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO8859-1"?>
+<Depts>
+	<Department>
+		<LoggingFolderPath>c:\XXX\XXX</LoggingFolderPath>
+		<MigrationADGroup>CN=365 Migration Test,OU=Unlicensed,OU=Software,OU=Groups,OU=VAC-ACC,DC=vac-acc,DC=gc,DC=ca</MigrationADGroup>
+		<InternalAddressToPing>vac-acc.gc.ca</InternalAddressToPing>
+		<MsgTitle>Department / Department</MsgTitle>
+	</Department>
+</Depts>
