@@ -23,7 +23,7 @@ $XMLfile = ".\config.xml"
 [xml]$Deps=Get-content $XMLfile
 
 $Script:LoggingFolderPath = $DEps.Depts.Department.LoggingFolderPath
-$Script:MigrationADGrou = $DEps.Depts.Department.MigrationADGroup
+$Script:MigrationADGroup = $DEps.Depts.Department.MigrationADGroup
 $Script:InternalAddressToPing = $DEps.Depts.Department.InternalAddressToPing
 $Script:MsgTitle = $DEps.Depts.Department.MsgTitle
 
