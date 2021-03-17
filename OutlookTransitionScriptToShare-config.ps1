@@ -222,7 +222,7 @@ function Show-MigrationComplete {
 	Write-Log "'Migration Complete' MessageBox closed"
 }
 function Show-NoInternalNetwork {
-	Write-Log "Showing 'No VAC Network' MessageBox"
+	Write-Log "Showing 'No Dept Network' MessageBox"
 	$null = [Microsoft.VisualBasic.Interaction]::MsgBox($Script:MigrationCompleteMsgNoNetwork, 'OKOnly,SystemModal,Information', $Script:MsgTitle)
 	Write-Log "'Migration Complete' MessageBox closed"
 	Write-Log "Launching Outlook"
