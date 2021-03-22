@@ -5,7 +5,7 @@ This application is available for partner testing. Pleae reach out with any ques
 
 This activity requires PowerShell capability by the partner to configure the tool.
 
-Revision:
+Revision (2021/03/20):
 1.	$Script:MigrateMsgOutlookOpened and $Script:MigrateMsg were swapped for messaging. Fixed the wording on those (lines 11 and 13)
 2.	Changed .\ with $PSScriptRoot on lines 22 and 371. Using .\ can be problematic if the script is ran without the working directory set properly.
 It’s best to use $PSScriptRoot as this variable gets replaced with the path the script is being ran from.
