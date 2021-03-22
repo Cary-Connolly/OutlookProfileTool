@@ -12,4 +12,5 @@ It’s best to use $PSScriptRoot as this variable gets replaced with the path th
 3.	In the config file you had C:\Program File\XXX. This worked because Program File was missing the s.
 The logging path to C:\Program Files\foldername it will fail as you need local admin rights to write to C:\Program Files\x.
 C:\OutlookScriptLogs to prevent this error just in case.
+-Marc Arsenault
 
